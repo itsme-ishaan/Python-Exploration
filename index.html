@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hand Universe (Python)</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    code, pre { background:#f6f8fa; padding: 2px 6px; border-radius: 6px; }
+    pre { padding: 12px; overflow:auto; }
+    .note { padding: 12px; border: 1px solid #ddd; border-radius: 10px; background: #fff; }
+  </style>
+</head>
+<body>
+  <h1>Hand Universe (Cosmos Control)</h1>
+
+  <div class="note">
+    <p><b>Note:</b> Ye project Python + webcam pe chalta hai. GitHub Pages static hosting hai,
+      isliye yahan Python code run nahi hoga. Ye page sirf instructions dikhata hai.</p>
+  </div>
+
+  <h2>Run locally</h2>
+  <pre><code>pip install opencv-python mediapipe numpy pygame</code></pre>
+
+  <h3>Model download</h3>
+  <p><code>hand_landmarker.task</code> download karke script ke same folder me rakho:</p>
+  <p>
+    <a href="https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task">
+      hand_landmarker.task (download)
+    </a>
+  </p>
+
+  <h3>Start</h3>
+  <pre><code>python cosmic_hand_universe.py</code></pre>
+
+  <h2>Source</h2>
+  <p>Code is in this repository.</p>
+</body>
+</html>
